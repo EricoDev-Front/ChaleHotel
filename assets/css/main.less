@@ -10,7 +10,7 @@ body{
 }
 
 h2{
-    color: #7d7840;
+    color: #7d7640;
     font-size: 1.1em;
     padding: 5px 0;
 }
@@ -93,6 +93,11 @@ p{
                         color: #fff5b0;
                         padding: 5px 10px;
                         float: right;
+
+                        &:hover{
+                            background: #fff5b0;
+                            color: #a29750;
+                        }
                     }
                 }
 
@@ -150,6 +155,50 @@ p{
     .conteudo{
         width: 90%;
         margin-left: 50px;
+
+        #beneficios{
+
+            li{
+                padding: 8px;
+                border-bottom: 1px solid #f3efcb;
+                height: 6em;
+                list-style: none;
+
+                &:hover{
+                    background: #f6f3d6;
+                    cursor: pointer;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    
+                    p{
+                        font-size: 0.8em;
+                    }
+
+                    h3{
+                        font-size: 1.1em;
+                        color: #615b2d;
+                        padding: 5px 0;
+                        background: url(../imagens/ornamento.png) no-repeat center right;
+                    }
+
+                    img{
+                        float: left;
+                        margin-right: 8px;
+
+                    }
+                }
+            }
+        }
         
+    }
+
+    #rodape{
+        clear: both;
+        padding: 16px;
+        background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+        color: #7d7640;
     }
 }
